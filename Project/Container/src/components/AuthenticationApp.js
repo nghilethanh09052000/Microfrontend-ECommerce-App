@@ -18,7 +18,6 @@ export default ({onSignIn}) => {
                 const {pathname} = history.location;
                 if(pathname !== nextPathname) history.push(nextPathname)
             },
-
             onSignIn:() =>{
                 onSignIn();
             }
