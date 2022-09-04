@@ -18,6 +18,7 @@ const prodConfig = {
             remotes:{
                 marketing: `marketing@${domain}/marketing/latest/remoteEntry.js`,
                 authentication: `authentication@${domain}/authentication/latest/remoteEntry.js`,
+                dashboard: `dashboard@${domain}/dashboard/latest/remoteEntry.js`,
             },
             shared:packageJson.dependencies
         })
